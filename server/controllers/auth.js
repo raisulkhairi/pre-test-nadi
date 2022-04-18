@@ -1,5 +1,4 @@
 const jwt = require("jsonwebtoken");
-const expressJwt = require("express-jwt");
 
 exports.login = (req, res) => {
   const { name, password } = req.body;
